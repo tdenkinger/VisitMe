@@ -179,7 +179,7 @@ DEPENDENCIES
   guard-rspec (~> 0.7.0)
   jquery-rails
   launchy (~> 2.1.0)
-  rails (= 3.2.3)
+  rails
   rspec-expectations
   rspec-rails (~> 2.10.1)
   sass-rails (~> 3.2.3)
