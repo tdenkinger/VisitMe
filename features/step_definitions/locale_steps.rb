@@ -1,13 +1,15 @@
 class Locale
-  
+
 end
 
 Given /^I add a new locale$/ do
-  @local = Locale.new
+  loc = Locale.new
+  loc.add({name: "Test Place", address: "1234 Main Street"})
+  loc.save!
 end
 
 When /^I request that locale$/ do
-  
+
 end
 
 Then /^I see the locale$/ do
