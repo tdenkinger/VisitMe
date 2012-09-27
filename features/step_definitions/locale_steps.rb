@@ -1,5 +1,5 @@
 class Locale
-  
+
 end
 
 Given /^I add a new locale$/ do
@@ -7,7 +7,7 @@ Given /^I add a new locale$/ do
 end
 
 When /^I request that locale$/ do
-  
+
 end
 
 Then /^I see the locale$/ do
